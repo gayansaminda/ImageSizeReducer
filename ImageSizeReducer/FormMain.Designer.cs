@@ -74,9 +74,9 @@
             // textBoxSourceRoot
             // 
             this.textBoxSourceRoot.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxSourceRoot.Location = new System.Drawing.Point(152, 6);
+            this.textBoxSourceRoot.Location = new System.Drawing.Point(158, 6);
             this.textBoxSourceRoot.Name = "textBoxSourceRoot";
-            this.textBoxSourceRoot.Size = new System.Drawing.Size(206, 23);
+            this.textBoxSourceRoot.Size = new System.Drawing.Size(200, 23);
             this.textBoxSourceRoot.TabIndex = 1;
             // 
             // buttonBrowseSourceRoot
@@ -122,9 +122,9 @@
             // textBoxDestinationRoot
             // 
             this.textBoxDestinationRoot.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxDestinationRoot.Location = new System.Drawing.Point(152, 70);
+            this.textBoxDestinationRoot.Location = new System.Drawing.Point(158, 70);
             this.textBoxDestinationRoot.Name = "textBoxDestinationRoot";
-            this.textBoxDestinationRoot.Size = new System.Drawing.Size(206, 23);
+            this.textBoxDestinationRoot.Size = new System.Drawing.Size(200, 23);
             this.textBoxDestinationRoot.TabIndex = 4;
             // 
             // checkBoxReplaceOriginal
