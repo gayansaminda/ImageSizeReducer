@@ -128,6 +128,21 @@ namespace ImageSizeReducer
             labelQT.Font = new Font(labelQT.Font, FontStyle.Bold);
         }
 
+        private void labelReadMore_MouseEnter(object sender, EventArgs e)
+        {
+            labelReadMore.Font = new Font(labelReadMore.Font, FontStyle.Bold);
+        }
+
+        private void labelReadMore_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("www.quantinetech.com/2017/10/11/imagesizereducer/");
+        }  
+
+        private void labelReadMore_MouseLeave(object sender, EventArgs e)
+        {
+            labelReadMore.Font = new Font(labelReadMore.Font, FontStyle.Regular);
+        }
+
         private void labelQT_MouseLeave(object sender, EventArgs e)
         {
             labelQT.Font = new Font(labelQT.Font, FontStyle.Regular);
@@ -381,7 +396,6 @@ namespace ImageSizeReducer
         private void trackBarQuality_Scroll(object sender, EventArgs e)
         {
             labelQuality.Text = trackBarQuality.Value.ToString() + "%";
-        }
-       
+        }             
     }
 }
